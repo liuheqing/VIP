@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/list_item_1"
+        android:src="@drawable/bg_accout_item_size"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="首页"
+        android:id="@+id/lv_textView"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:textSize="16sp"
+        android:layout_alignTop="@+id/list_item_1"
+        android:layout_toRightOf="@+id/list_item_1"
+        android:layout_toEndOf="@+id/list_item_1"
+        android:textColor="@android:color/white"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_item_2"
+        android:src="@drawable/icon_voucher_forward"
+        android:layout_alignTop="@+id/list_item_1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
